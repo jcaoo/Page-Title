@@ -1,0 +1,136 @@
+<!DOCTYPE html> <html><head>
+        <title>Page Title</title>
+    <style>h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #374b7c;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+a {
+    color: #374b7c;
+}
+
+p {
+    text-align: center;
+}
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #b7cbfc;
+    text-align: center;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 22px;
+    text-align: center;
+}
+
+.tab button:hover {
+    background-color: #ccc;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #c8ccf6;
+    border-top: none;
+    
+}
+
+body {
+    background-color: #8cc0f1;
+	text-align: center;
+}</style></head>
+    <body>
+        <div class="header">
+            <h1>My Portfolio</h1>
+            <p> Hi! My name is Jessica Cao and I am a senior at Thomas A. Edison CTE High School. My shop is Web Design, and we primarily focus
+            </p><p> on coding with Javascript, CSS and jQuery.
+                I've also worked with Adobe Photoshop and Illustrator. While collaborating with creative students and </p>
+            <p>dedicated teachers, I have learned so much. The projects below showcase the work I've done throughout these 3 years and I would love to share them with you! </p>
+            <p></p>
+        </div>
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'Photoshop')">Visual Design</button>
+            <button class="tablinks" onclick="openCity(event, 'Web')">Web &amp; App Development</button>
+            <button class="tablinks" onclick="openCity(event, 'Devops')">Devops &amp; Project Management</button>
+            <button class="tablinks" onclick="openCity(event, 'Other')">Other Links</button>
+        </div>
+
+        <div id="Photoshop" class="tabcontent">
+            <h3>Adobe Photoshop &amp; Adobe Illustrator</h3>
+
+            <h4> <a href="https://drive.google.com/file/d/1_Avub3mSiatAtXWZL2S6wUvNnX4pxo7k/view?usp=sharing"> Comic Strip </a> </h4>
+            <h4> This comic strip was my first ever big project on Adobe Illustrator. My group and I came had to sketch out the scnario we were creatng. Our scenario was based off a scene from the show, "Orange Is The New Black". The scene was about guards in a prison that were given the opportunity to get a higher position. As the guards exited, the female guards realize they were getting paid less than the male guards. Our comic strip depicts modern day sexism in the workplace. </h4>
+        </div>
+
+        <div id="Web" class="tabcontent">
+            <h3>Web &amp; App Development</h3>
+
+            <h4> <a href="https://docs.google.com/presentation/d/1nXPYKATwJQEJwyAtYVYX6Cg3FK6kiaE4G00WXC1--IE/edit?usp=sharing"> TicTacToe Project </a> </h4>
+            <h4> In this project, we were asked to create a code that would represent a tic tac toe game. The code would allow you to play a game of tic-tac-toe with the program.</h4>
+            <h4> <a href="https://docs.google.com/presentation/d/1NVB66NZ0DqZ3YyrODixBbnEUbSgLEi5_DeEQwVIjGyI/edit?usp=sharing"> Log In Process Project</a> </h4>
+            <h4> In this project, my group and I created a code that replicated the process of a log in portal. Similar to logging on to your social media account with your username and password, our code was able to impliment that. If you got the password wromg, you would be denyed access, like a regular log in verification. </h4>
+            <h4> <a href="https://docs.google.com/presentation/d/1YKp8q6d17guKDfMEa2Ko9QPCXj3Rv0-pKrQBFhc1M9o/edit?usp=sharing"> Tuples &amp; Dictionaries Project </a> </h4>
+            <h4> In this project, I was asked to create a code that would evaluate the average of a student's test scores. The code allows you to input the student's name, as well as their scores. At the end, you can ask to average out the student's test scores. </h4>
+            <h4> <a href="https://docs.google.com/presentation/d/1BiiVgoO3ch6ttcBUzIKtQCZ60wpk3LY88Kw2QRrTsKc/edit?usp=sharing"> Store Sales Chatbot </a> </h4>
+            <h4>In this project, I made an interactive chatbot called Sale-E. Sale-E allows you to have access to information on sales around you. From groceries to clothes, Sale-E is able to locate all the discounts near you. </h4>
+        </div>
+
+        <div id="Devops" class="tabcontent">
+            <h3>Javascript &amp; jQuery</h3>
+            <h4> <a href="https://popcode.org/?snapshot=aab786f7-51b1-49c7-bb4f-434bec4fd84f">Unit 6 Project </a> </h4>
+            <h4> For our midterm project, we werer asked to use jQuery actions to build an interactive website. I chose the story of Snow White and The Seven Drawves. This code is definitely one of my biggest accomplishments, both time consuming and rewarding at the same time. </h4>
+            <h4> <a href="https://popcode.org/?snapshot=b04662cd-7fa3-408b-b147-0e2a560205b9">What Cat Are You? </a> </h4>
+            <h4> In this project, we were asked to create a website that retrieves a user input, stores user input in a variable, manipulates data using operators, and displays the output on the page using .append(). My partner and I decided to make a code that could show you which cat you were! </h4>
+            <h4> <a href="https://popcode.org/?snapshot=23a7424a-dfd8-4553-9fa0-0f7fff2076ad"> HireMe Project</a> </h4>
+            <h4> In this project, we were asked to use CSS properties and values, and Google Fonts to style a profile page for our partner. I enjoyed this project a lot because I got to know someone new from my class, and it was very engaging.</h4>
+        </div>
+        <div id="Other" class="tabcontent">
+            <h3>My Other Links</h3>
+
+            <h4> <a href="https://docs.google.com/document/d/1fVTH9v6aEnceF9VJLugL3dH0ceUkdY7CtFIOvUmKtGY/edit?usp=sharing"> My Resume </a> </h4>
+            <h4> <a href="https://www.linkedin.com/in/jessica-caoo">Connect With Me On LinkedIn! </a> </h4>
+
+        </div>
+    
+<script>
+/*__POPCODESTART__*/
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks; // Get all elements with class="tabcontent" and hide them
+
+  tabcontent = document.getElementsByClassName("tabcontent");
+
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  } // Get all elements with class="tablinks" and remove the class "active"
+
+
+  tablinks = document.getElementsByClassName("tablinks");
+
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  } // Show the current tab, and add an "active" class to the button that opened the tab
+
+
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbIm9wZW5DaXR5IiwiZXZ0IiwiY2l0eU5hbWUiLCJpIiwidGFiY29udGVudCIsInRhYmxpbmtzIiwiZG9jdW1lbnQiLCJnZXRFbGVtZW50c0J5Q2xhc3NOYW1lIiwibGVuZ3RoIiwic3R5bGUiLCJkaXNwbGF5IiwiY2xhc3NOYW1lIiwicmVwbGFjZSIsImdldEVsZW1lbnRCeUlkIiwiY3VycmVudFRhcmdldCJdLCJtYXBwaW5ncyI6IkFBQUEsU0FBU0EsUUFBVCxDQUFrQkMsR0FBbEIsRUFBdUJDLFFBQXZCLEVBQWlDO0FBQzdCO0FBQ0EsTUFBSUMsQ0FBSixFQUFPQyxVQUFQLEVBQW1CQyxRQUFuQixDQUY2QixDQUk3Qjs7QUFDQUQsRUFBQUEsVUFBVSxHQUFHRSxRQUFRLENBQUNDLHNCQUFULENBQWdDLFlBQWhDLENBQWI7O0FBQ0EsT0FBS0osQ0FBQyxHQUFHLENBQVQsRUFBWUEsQ0FBQyxHQUFHQyxVQUFVLENBQUNJLE1BQTNCLEVBQW1DTCxDQUFDLEVBQXBDLEVBQXdDO0FBQ3BDQyxJQUFBQSxVQUFVLENBQUNELENBQUQsQ0FBVixDQUFjTSxLQUFkLENBQW9CQyxPQUFwQixHQUE4QixNQUE5QjtBQUNILEdBUjRCLENBVTdCOzs7QUFDQUwsRUFBQUEsUUFBUSxHQUFHQyxRQUFRLENBQUNDLHNCQUFULENBQWdDLFVBQWhDLENBQVg7O0FBQ0EsT0FBS0osQ0FBQyxHQUFHLENBQVQsRUFBWUEsQ0FBQyxHQUFHRSxRQUFRLENBQUNHLE1BQXpCLEVBQWlDTCxDQUFDLEVBQWxDLEVBQXNDO0FBQ2xDRSxJQUFBQSxRQUFRLENBQUNGLENBQUQsQ0FBUixDQUFZUSxTQUFaLEdBQXdCTixRQUFRLENBQUNGLENBQUQsQ0FBUixDQUFZUSxTQUFaLENBQXNCQyxPQUF0QixDQUE4QixTQUE5QixFQUF5QyxFQUF6QyxDQUF4QjtBQUNILEdBZDRCLENBZ0I3Qjs7O0FBQ0FOLEVBQUFBLFFBQVEsQ0FBQ08sY0FBVCxDQUF3QlgsUUFBeEIsRUFBa0NPLEtBQWxDLENBQXdDQyxPQUF4QyxHQUFrRCxPQUFsRDtBQUNBVCxFQUFBQSxHQUFHLENBQUNhLGFBQUosQ0FBa0JILFNBQWxCLElBQStCLFNBQS9CO0FBQ0giLCJzb3VyY2VzQ29udGVudCI6WyJmdW5jdGlvbiBvcGVuQ2l0eShldnQsIGNpdHlOYW1lKSB7XG4gICAgLy8gRGVjbGFyZSBhbGwgdmFyaWFibGVzXG4gICAgdmFyIGksIHRhYmNvbnRlbnQsIHRhYmxpbmtzO1xuXG4gICAgLy8gR2V0IGFsbCBlbGVtZW50cyB3aXRoIGNsYXNzPVwidGFiY29udGVudFwiIGFuZCBoaWRlIHRoZW1cbiAgICB0YWJjb250ZW50ID0gZG9jdW1lbnQuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZShcInRhYmNvbnRlbnRcIik7XG4gICAgZm9yIChpID0gMDsgaSA8IHRhYmNvbnRlbnQubGVuZ3RoOyBpKyspIHtcbiAgICAgICAgdGFiY29udGVudFtpXS5zdHlsZS5kaXNwbGF5ID0gXCJub25lXCI7XG4gICAgfVxuXG4gICAgLy8gR2V0IGFsbCBlbGVtZW50cyB3aXRoIGNsYXNzPVwidGFibGlua3NcIiBhbmQgcmVtb3ZlIHRoZSBjbGFzcyBcImFjdGl2ZVwiXG4gICAgdGFibGlua3MgPSBkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKFwidGFibGlua3NcIik7XG4gICAgZm9yIChpID0gMDsgaSA8IHRhYmxpbmtzLmxlbmd0aDsgaSsrKSB7XG4gICAgICAgIHRhYmxpbmtzW2ldLmNsYXNzTmFtZSA9IHRhYmxpbmtzW2ldLmNsYXNzTmFtZS5yZXBsYWNlKFwiIGFjdGl2ZVwiLCBcIlwiKTtcbiAgICB9XG5cbiAgICAvLyBTaG93IHRoZSBjdXJyZW50IHRhYiwgYW5kIGFkZCBhbiBcImFjdGl2ZVwiIGNsYXNzIHRvIHRoZSBidXR0b24gdGhhdCBvcGVuZWQgdGhlIHRhYlxuICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKGNpdHlOYW1lKS5zdHlsZS5kaXNwbGF5ID0gXCJibG9ja1wiO1xuICAgIGV2dC5jdXJyZW50VGFyZ2V0LmNsYXNzTmFtZSArPSBcIiBhY3RpdmVcIjtcbn0iXX0=</script></body></html>
